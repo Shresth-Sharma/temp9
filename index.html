@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+    <body>
+        <script>
+            const request = new XMLHttpRequest()
+            request.open('POST',`/process/${JSON.stringify('transferred')}`)
+            request.send()
+        </script>
+    </body>
+</html>
